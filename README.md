@@ -5,6 +5,7 @@ Welcome to my personal website! This site showcases my portfolio, background, an
 <p align="center">
   <img src="https://github.com/SunnyRaymond/Personal-Website/blob/main/src/assets/home-animation.gif" alt="Home Animation">
 </p>
+
 ## Live Demo
 
 Check out the live site here: https://guoyichen-profolio.netlify.app/

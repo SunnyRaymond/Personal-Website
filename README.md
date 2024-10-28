@@ -2,6 +2,8 @@
 
 Welcome to my personal website! This site showcases my portfolio, background, and interests. Built with **React.js** for dynamic interactivity and **Bootstrap** for clean, responsive styling, mobile responsive, the website adapts beautifully to different devices and screen sizes.
 
+![Home Animation](https://github.com/SunnyRaymond/Personal-Website/blob/main/src/assets/home-animation.gif)
+
 ## Live Demo
 
 Check out the live site here: https://guoyichen-profolio.netlify.app/

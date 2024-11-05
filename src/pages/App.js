@@ -5,6 +5,7 @@ import About from "./about/About";
 import Projects from "./project/Projects";
 import Resume from "./resume/Resume";
 import Home from "./home/Home";
+import Comment from "./comment/Comment";
 import Footer from "../components/common/Footer";
 import ScrollToTop from "../effect/ScrollToTop";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -41,6 +42,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/comment" element={<Comment />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

@@ -4,6 +4,7 @@ import ProjectCard from "../../components/projects/ProjectCards";
 import Particle from "../../components/common/Particle";
 import Pizza from "../../assets/projects/pizza.png";
 import Oasis from "../../assets/projects/Oasis.png";
+import Orbits from "../../assets/projects/Orbits.png";
 import Button from "react-bootstrap/Button";
 import { BsGithub } from "react-icons/bs";
 import { CgWebsite } from "react-icons/cg";
@@ -25,7 +26,7 @@ function Projects() {
             <ProjectCard
               imgPath={Pizza}
               title="Fast-React-Pizza"
-              description="A web application that allows users to order pizza online. Users can select the pizza they want, add it to the cart, and place an order. The application also allows users to retrive the order using a unique order ID."
+              description="A web application that allows users to order online. Users can select the pizza they want, add it to the cart, and place an order. The application also allows users to retrive the order using a unique order ID."
               action={
                 <Row
                   style={{
@@ -80,7 +81,7 @@ function Projects() {
                   >
                     <Button
                       variant="primary"
-                      href={"https://github.com/"}
+                      href={"https://github.com/SunnyRaymond/fast-react-pizza"}
                       target="_blank"
                     >
                       <BsGithub /> &nbsp; Organization
@@ -94,7 +95,7 @@ function Projects() {
             <ProjectCard
               imgPath={Oasis}
               title="The-Wild-Oasis"
-              description="This is a hotel management web app, where hotel employees can manage cabins, bookings, and guests. It uses Supabase as the backend and implements advanced React techniques such as HOCs and React Query. Hint: login user: test@test.com, password: testest"
+              description="This is a hotel management web app, where hotel employees can manage cabins, bookings, and guests. It uses Supabase as the backend. Hint: login user: test@test.com, password: testest"
               action={
                 <Row
                   style={{
@@ -149,7 +150,76 @@ function Projects() {
                   >
                     <Button
                       variant="primary"
-                      href={"https://github.com/"}
+                      href={"https://github.com/SunnyRaymond/the-wild-oasis"}
+                      target="_blank"
+                    >
+                      <BsGithub /> &nbsp; Organization
+                    </Button>
+                  </Col>
+                </Row>
+              }
+            />
+          </Col>
+          <Col xs={12} sm={12} md={6} lg={6} xl={4} className="project-card">
+            <ProjectCard
+              imgPath={Orbits}
+              title="The-Wild-Oasis"
+              description="A user-friendly browser plugin that automatically help student allocate their preferred course slots, without trying all the timetable clashes."
+              action={
+                <Row
+                  style={{
+                    justifyContent: "center",
+                    padding: "10px",
+                    display: "flex",
+                    flexWrap: "wrap",
+                  }}
+                  className="g-0"
+                >
+                  <Col
+                    xs={5}
+                    sm={5}
+                    md={10}
+                    lg={5}
+                    xl={10}
+                    xxl={6}
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      paddingBottom: "10px",
+                    }}
+                  >
+                    <Button
+                      variant="primary"
+                      href="https://www.youtube.com/watch?v=aWgVyqE-o-4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        color: "white",
+                        textDecoration: "none",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      <CgWebsite /> &nbsp; Project Demo
+                    </Button>
+                  </Col>
+                  <Col
+                    xs={5}
+                    sm={5}
+                    md={10}
+                    lg={5}
+                    xl={10}
+                    xxl={6}
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      paddingBottom: "10px",
+                    }}
+                  >
+                    <Button
+                      variant="primary"
+                      href={"https://github.com/iNTUition-10/ORBITs"}
                       target="_blank"
                     >
                       <BsGithub /> &nbsp; Organization

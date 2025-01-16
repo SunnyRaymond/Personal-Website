@@ -40,7 +40,7 @@ function Home() {
                   options={{
                     strings: [
                       "> Student at Nanyang Technological University",
-                      "> Frontend Developer",
+                      "> Full-Stack Developer",
                     ],
                     cursor: "_",
                     autoStart: true,

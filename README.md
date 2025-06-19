@@ -14,6 +14,7 @@ Check out the live site here: https://guoyichen-profolio.netlify.app/
 - **About Me**: An introduction to who I am and my background.
 - **Projects**: A showcase of my projects, including descriptions, tech stacks, and links.
 - **Skills**: A section highlighting my technical and soft skills.
+- **Comments**: A simple comment section for visitors to leave feedback or messages.
   
 ## Built With
 

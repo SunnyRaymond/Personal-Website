@@ -119,6 +119,49 @@
     font-style: italic;
 }
 
+.love-social-icons {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2em;
+    line-height: 2em;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 50%;
+    transition: 0.5s;
+    margin-right: 16px;
+}
+.love-social-icons:hover {
+    color: var(--primary-color);
+}
+.love-social-icons::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: 0.5s;
+    transform: scale(0.9);
+    z-index: -1;
+}
+.love-social-icons:hover::before {
+    transform: scale(1.15);
+    animation: neonBluePurpleGradient 3s infinite;
+}
+
+.love-timeline-img {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-right: 18px;
+    box-shadow: 0 0 12px #ab31de33;
+    background: #222;
+}
+
 @media (max-width: 1200px) {
     .love-profile-pic {
         padding-top: 1em !important;
@@ -146,5 +189,10 @@
     .love-timeline-icon {
         margin-bottom: 8px;
         margin-right: 0;
+    }
+    .love-timeline-img {
+        width: 80px;
+        height: 60px;
+        margin-right: 10px;
     }
 } 

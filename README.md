@@ -8,7 +8,7 @@ Welcome to my personal website! This site showcases my portfolio, background, an
 
 ## Live Demo
 
-Check out the live site here: https://guoyichen-profolio.netlify.app/
+Check out the live site here: https://guoyichen.netlify.app/
 ## Features
 
 - **About Me**: An introduction to who I am and my background.

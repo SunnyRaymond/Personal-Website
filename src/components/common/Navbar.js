@@ -10,6 +10,7 @@ import {
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
 import { AiOutlineComment } from "react-icons/ai";
+import { FaRegHeart } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -96,6 +97,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineComment style={{ marginBottom: "2px" }} /> Comment
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/love"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaRegHeart style={{ marginBottom: "2px" }} /> Love
               </Nav.Link>
             </Nav.Item>
           </Nav>

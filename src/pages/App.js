@@ -17,6 +17,7 @@ import {
 } from "react-router-dom";
 import FadeIn from "../effect/FadeIn";
 import ChatBot from "react-chatbotify";
+import Love from "./love/Love";
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -43,6 +44,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/comment" element={<Comment />} />
+          <Route path="/love" element={<Love />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

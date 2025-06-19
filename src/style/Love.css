@@ -1,0 +1,150 @@
+/* Love Page Styles */
+.love-content {
+    padding: 20vh 4vw !important;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #140230 0%, #08000b 100%);
+}
+
+.love-profile-text {
+    text-align: left;
+    padding-top: 2em;
+}
+
+.love-profile-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.love-social-icon {
+    font-size: 2.2em;
+    color: var(--primary-color);
+    background: #fff2;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #ab31de55;
+}
+.love-social-icon:hover {
+    color: #fff;
+    background: var(--primary-color);
+    box-shadow: 0 0 20px #ab31de99;
+}
+
+.love-profile-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.love-image {
+    border-radius: 20px;
+    box-shadow: 0 0 40px #ab31de55;
+    max-width: 90vw;
+}
+
+.love-quote {
+    display: block;
+    font-size: 1.2em;
+    color: #ed9b37;
+    margin-top: 1em;
+    font-style: italic;
+}
+
+.love-timeline-section {
+    padding-top: 8vh;
+}
+
+.love-timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 600px;
+    position: relative;
+}
+
+.love-timeline-event {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+    background: #fff1;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #ab31de22;
+    padding: 20px 24px;
+    transition: 0.3s;
+}
+.love-timeline-event:hover {
+    background: #ab31de22;
+    box-shadow: 0 0 30px #ab31de55;
+}
+.love-timeline-icon {
+    font-size: 2.5em;
+    color: var(--primary-color);
+    margin-right: 20px;
+    flex-shrink: 0;
+    margin-top: 4px;
+}
+.love-timeline-content {
+    text-align: left;
+}
+.love-timeline-date {
+    font-size: 1em;
+    color: #ed9b37;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.love-timeline-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 2px;
+}
+.love-timeline-desc {
+    font-size: 1em;
+    color: #fff;
+}
+
+.love-ending-quote {
+    margin-top: 40px;
+    font-size: 1.3em;
+    color: #ed9b37;
+    font-style: italic;
+}
+
+@media (max-width: 1200px) {
+    .love-profile-pic {
+        padding-top: 1em !important;
+    }
+    .love-timeline {
+        max-width: 95vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .love-content {
+        padding: 10vh 2vw !important;
+    }
+    .love-profile-text {
+        padding-top: 1em;
+    }
+    .love-image {
+        max-height: 250px;
+    }
+    .love-timeline-event {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 10px;
+    }
+    .love-timeline-icon {
+        margin-bottom: 8px;
+        margin-right: 0;
+    }
+} 

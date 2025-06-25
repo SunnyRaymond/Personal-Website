@@ -22,6 +22,13 @@ const timelineData = [
     icon: <FaHandHoldingHeart />,
     img: require("../../assets/love/memories/first520.jpg"),
   },
+  {
+    date: "2025-06-21",
+    title: "3 Days in Heaven ✨",
+    description: "A weekend in paradise, where time stands still.", //中文是：天堂的三天，时间仿佛静止。
+    icon: <FaRegHeart />,
+    img: require("../../assets/love/memories/621.jpg"),
+  },
 ];
 
 function Love() {

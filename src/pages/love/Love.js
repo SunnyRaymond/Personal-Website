@@ -29,6 +29,13 @@ const timelineData = [
     icon: <FaRegHeart />,
     img: require("../../assets/love/memories/621.jpg"),
   },
+  {
+    date: "2025-07-06",
+    title: "See the  Sunset Together 🌅",
+    description: "Watching the sunset with you, the world sunk into gentle.", //中文是：和你一起看日落，世界都变得温柔。诗意浪漫的英文是：Watching the sunset with you, the world becomes gentle.
+    icon: <FaHandHoldingHeart />,
+    img: require("../../assets/love/memories/sea.jpg"),
+  }
 ];
 
 function Love() {

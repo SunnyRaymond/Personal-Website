@@ -86,6 +86,27 @@ function Love() {
           </Col>
         </Row>
       </Container>
+      {/* Our Love MV Section */}
+      <Container className="section-divider love-mv-section">
+        <h1 className="section-header fade-in">
+          Our <strong className="primary-color">Love MV</strong>
+        </h1>
+        <div className="love-mv-description fade-in">
+          <span>A special video capturing our sweetest moments together. Every second is a memory, every frame is love.</span>
+          <span className="mv-heart" role="img" aria-label="heart">💜</span>
+        </div>
+        <div className="love-mv-video-wrapper fade-in">
+          <iframe
+            className="love-mv-video"
+            src="https://www.youtube.com/embed/gR5hDmXKf6E"
+            title="Our Love MV"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </Container>
+      {/* End Our Love MV Section */}
       <Container className="section-divider love-timeline-section">
         <h1 className="section-header fade-in">
           Our <strong className="primary-color">Memories</strong>

@@ -162,6 +162,80 @@
     background: #222;
 }
 
+.love-mv-section {
+    padding-top: 8vh;
+    padding-bottom: 2vh;
+    text-align: center;
+}
+.love-mv-description {
+    font-size: 1.25em;
+    color: #ffb6d5;
+    font-style: italic;
+    margin-bottom: 22px;
+    margin-top: 6px;
+    text-align: center;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+.love-mv-description .mv-heart {
+    color: #ed9b37;
+    font-size: 1.3em;
+    margin-left: 0.2em;
+}
+.love-mv-video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 360px;
+    background: rgba(255,255,255,0.10);
+    border-radius: 24px;
+    box-shadow: 0 8px 32px 0 rgba(171,49,222,0.18), 0 1.5px 8px 0 #ed9b3755;
+    padding: 16px;
+    backdrop-filter: blur(6px);
+    border: 1.5px solid rgba(237,155,55,0.18);
+    transition: box-shadow 0.3s, border 0.3s;
+}
+.love-mv-video-wrapper:hover {
+    box-shadow: 0 8px 40px 0 #ed9b3755, 0 1.5px 12px 0 #ab31de55;
+    border: 1.5px solid #ed9b37;
+}
+.love-mv-video {
+    width: 100%;
+    aspect-ratio: 9/16;
+    border-radius: 16px;
+    box-shadow: 0 0 16px #ab31de33;
+    background: #222;
+    border: none;
+    min-height: 320px;
+    max-height: 80vh;
+}
+@media (max-width: 768px) {
+    .love-mv-video-wrapper {
+        max-width: 98vw;
+        padding: 8px;
+    }
+    .love-mv-video {
+        min-height: 220px;
+    }
+}
+@media (max-width: 480px) {
+    .love-mv-video {
+        min-height: 160px;
+    }
+    .love-mv-description {
+        font-size: 1em;
+    }
+}
+
 @media (max-width: 1200px) {
     .love-profile-pic {
         padding-top: 1em !important;

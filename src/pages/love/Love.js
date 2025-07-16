@@ -6,6 +6,15 @@ import { FaHandHoldingHeart, FaRegHeart } from "react-icons/fa";
 import FadeIn from "../../effect/FadeIn";
 import "../../style/Love.css";
 import profilePic from "../../assets/love/Hannah.jpg";
+import { Document, Page, pdfjs } from "react-pdf";
+import letterPdf from "../../assets/love/letter.pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import "react-pdf/dist/Page/TextLayer.css";
+
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  "pdfjs-dist/legacy/build/pdf.worker.min.mjs",
+  import.meta.url
+).toString();
 
 const timelineData = [
   {
@@ -107,6 +116,34 @@ function Love() {
         </div>
       </Container>
       {/* End Our Love MV Section */}
+      {/* Our Love Letter Section */}
+      <Container className="section-divider love-letter-section fade-in">
+        <h1 className="section-header">
+          Our <strong className="primary-color">Love Letter</strong>
+        </h1>
+        <div className="love-letter-description">
+          <span>A letter from my beloved, a treasure of words and feelings. Scroll to read the whole letter. 💌</span>
+        </div>
+        <div className="love-letter-pdf-wrapper">
+          <a
+            href={letterPdf}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="love-letter-download-btn"
+          >
+            Download Love Letter
+          </a>
+          <iframe
+            src={letterPdf}
+            title="Love Letter PDF"
+            width="100%"
+            height="500px"
+            style={{ display: 'block', maxWidth: '700px', margin: '0 auto', border: 'none', borderRadius: '12px', boxShadow: '0 0 12px #ed9b3733', background: 'white' }}
+            allowFullScreen
+          ></iframe>
+        </div>
+      </Container>
+      {/* End Our Love Letter Section */}
       <Container className="section-divider love-timeline-section">
         <h1 className="section-header fade-in">
           Our <strong className="primary-color">Memories</strong>

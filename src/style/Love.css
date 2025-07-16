@@ -236,6 +236,87 @@
     }
 }
 
+.love-letter-section {
+    padding-top: 8vh;
+    padding-bottom: 2vh;
+    text-align: center;
+}
+.love-letter-description {
+    font-size: 1.15em;
+    color: #ffb6d5;
+    font-style: italic;
+    margin-bottom: 18px;
+    margin-top: 6px;
+    text-align: center;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+.love-letter-pdf-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+.love-letter-download-btn {
+    display: inline-block;
+    background: linear-gradient(90deg, #ab31de 0%, #ed9b37 100%);
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 28px;
+    border-radius: 24px;
+    text-decoration: none;
+    margin-bottom: 8px;
+    box-shadow: 0 0 16px #ab31de55;
+    transition: background 0.3s, box-shadow 0.3s;
+    font-size: 1.1em;
+}
+.love-letter-download-btn:hover {
+    background: linear-gradient(90deg, #ed9b37 0%, #ab31de 100%);
+    box-shadow: 0 0 32px #ed9b3777;
+    color: #fff;
+}
+.love-letter-pdf-scroll {
+    width: 100%;
+    max-width: 420px;
+    height: 380px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: rgba(255,255,255,0.10);
+    border-radius: 24px;
+    box-shadow: 0 0 24px #ab31de33;
+    padding: 18px 0 18px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+.love-letter-pdf-scroll .react-pdf__Page {
+    box-shadow: 0 0 12px #ed9b3733;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 100% !important;
+    min-width: 0;
+}
+.love-letter-pdf-scroll canvas {
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+}
+@media (max-width: 576px) {
+    .love-letter-pdf-scroll {
+        max-width: 98vw;
+        height: 220px;
+        padding: 6px 0 6px 0;
+    }
+}
+
 @media (max-width: 1200px) {
     .love-profile-pic {
         padding-top: 1em !important;
